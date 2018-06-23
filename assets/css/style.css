@@ -1,0 +1,25 @@
+
+header {
+    Font-size: 40px;
+    font-stretch: 50%;
+}
+
+#question {
+    padding: 20px;
+    margin: 20px 0px 15px 0px;
+    border-bottom: 1px solid black;
+}
+
+#tapImg {
+    border: 1px solid black;
+    margin: 5px;
+    display: inherit;
+}
+
+#game-over {
+    display: none;
+}
+
+#mainGame {
+    display: block;
+}

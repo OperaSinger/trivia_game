@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <header style="text-align: center">Trivia Game</header>
+    <div class="container">
+        <div class="row" id="gameTitle">
+            <div class="col-12">
+            </div>
+        </div>
+    </div>
+    </header>
+    <div class="container" id="content">
+        <button type="button" id="startGame" class="btn btn-secondary btn-lg btn-block">Play Trivia!</button>
+        <div class="row">
+            <div class="col-md-3" id="image">
+                <img src="assets/images/spinal_tap2.jpg" style="width: 100%" id="tapImg">
+            </div>
+            <div class="col-md-9" id="AnswerList">
+                <p id="question"></p>
+                <div class="row">
+                    <div class="col-md-10">
+                        <ol>
+                            <label for="firstA">
+                                <li id="myRadio" class="choice1">
+                            </label>
+                            <input type="radio" value="0" name="firstQ" class="Answer" id="firstA">
+                            </li>
+                            <label for="secondA">
+                                <li id="myRadio" class="choice2">
+                            </label>
+                            <input type="radio" value="1" name="firstQ" class="Answer" id="secondA">
+                            </li>
+                            <label for="thirdA">
+                                <li id="myRadio" class="choice3">
+                            </label>
+                            <input type="radio" value="2" name="firstQ" class="Answer" id="thirdA">
+                            </li>
+                            <label for="fourthA">
+                                <li id="myRadio" class="choice1">
+                            </label>
+                            <input type="radio" value="3" name="firstQ" class="Answer" id="fourthA">
+                            </li>
+
+                        </ol>
+                    </div>
+                    <div class="col-md-2" id="enter">
+                            <button type="button" class="btn btn-secondary">ENTER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" id="game-over">
+        <h1>Game Over!</h1>
+
+    </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/questionlist.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
