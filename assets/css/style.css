@@ -23,3 +23,7 @@ header {
 #mainGame {
     display: block;
 }
+
+#submitButton {
+    margin-bottom: 15px;
+}
